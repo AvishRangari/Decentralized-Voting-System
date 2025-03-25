@@ -45,22 +45,7 @@
 
 7. Add network to the metamask. ( Network name - Localhost 7575, RPC URl - http://localhost:7545, Chain ID - 1337, Currency symbol - ETH)
 
-8. Open MySQL and create database named <b>voter_db</b>. (DON'T USE XAMPP)
-
-9. In the database created, create new table named <b>voters</b> in the given format and add some values.
-
-           CREATE TABLE voters (
-           voter_id VARCHAR(36) PRIMARY KEY NOT NULL,
-           role ENUM('admin', 'user') NOT NULL,
-           password VARCHAR(255) NOT NULL
-           );
-   <br>
-
-        +--------------------------------------+-------+-----------+
-        | voter_id                             | role  | password  |
-        +--------------------------------------+-------+-----------+
-        |                                      |       |           |
-        +--------------------------------------+-------+-----------+
+8. https://github.com/AvishRangari/voting-system-1#
 
 12. Install truffle globally
     
